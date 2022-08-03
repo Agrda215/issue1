@@ -38,4 +38,6 @@ function UpdateGameArea() {
  }
 }
 
+console.warn("Die VeproFlappy.")
+
 setInterval(UpdateGameArea, 100)
