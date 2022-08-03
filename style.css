@@ -11,3 +11,7 @@ h1.score {
     display:flex;
     justify-content:center;
  }
+
+ canvas.flappy {
+    background-color:orange;
+ }
