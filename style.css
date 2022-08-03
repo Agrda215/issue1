@@ -1,0 +1,13 @@
+h1.score {
+    color:darkblue;
+  }
+  
+  body {
+    background-color:rgba(10, 255, 10, 0.7);
+    font-family:sans-serif;
+  }
+
+  div.tabs {
+    display:flex;
+    justify-content:center;
+ }
