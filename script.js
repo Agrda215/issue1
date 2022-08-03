@@ -31,6 +31,11 @@ function UpdateGameArea() {
    document.getElementsByTagName("img")[1].style.top = y[1] + "px"
    document.getElementsByTagName("img")[0].style.position = "absolute"
    document.getElementsByTagName("img")[1].style.position = "absolute"
+   if (x[0] >= x[1]) {
+    score += 1
+    x[1] += 300
+    document.getElementById("score").innerText = score
+ }
 }
 
 setInterval(UpdateGameArea, 100)
