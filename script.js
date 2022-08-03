@@ -4,6 +4,22 @@ var y = [100, 80]
 const width = [110, 115]
 const height = [110, 115]
 
+document.getElementById("left").onclick = () => {
+    x[0] -= 5
+  }
+  
+  document.getElementById("right").onclick = () => {
+    x[0] += 5
+  }
+  
+  document.getElementById("up").onclick = () => {
+    y[0] -= 5
+  }
+  
+  document.getElementById("down").onclick = () => {
+    y[0] += 5
+  }
+
 function UpdateGameArea() {
    document.getElementsByTagName("img")[0].style.width = width[0] + "px"
    document.getElementsByTagName("img")[0].style.height = height[0] + "px"
